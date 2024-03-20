@@ -1,7 +1,9 @@
 import logo from './logo.svg';
-import './App.css';
+import'./App.css';
 import { useState } from 'react';
 import TodoListItem from './TodoListItem.js';
+import style from './my-style.module.css';
+
 var count = 1
 
 function App() 
@@ -130,7 +132,7 @@ function App()
   return (
     // <div style ={ divStyle}>
       <div id='parentDiv'>    
-        <h1 className='header'>Todo App</h1>
+        <h1 className={style.header}>Todo App</h1>
         <div>
           <label onClick={()=>handleFilter("incomplete")}>Incomplete</label> |
           <label onClick={()=>handleFilter("completed")}>Completed</label> |
@@ -180,7 +182,6 @@ function App()
                 break;
               }
 
-                                    
             })
         }
       </div>

@@ -1,13 +1,13 @@
 body
 {
-  background-color: linear-gradient(180deg, #E3C2FE, #FFFFFF);
+  background: linear-gradient(180deg, #E3C2FE, #FFFFFF);
   background-attachment: fixed;
-  margin: 5px;
-  padding: 5px;
+ 
 }
 
 .header
 {
+  background-color: #FFFFFF;
   text-align: center;
   padding: 10px;
   margin: 5px;
