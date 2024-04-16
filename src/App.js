@@ -13,17 +13,22 @@ function App()
   var [todo, setTodo] = useState([
   {
     id: count++,
-    title: "Todo 1",
+    title: "Complete our HW",
     completed: false
   },
   {
     id: count++,
-    title: "Todo 2",
+    title: "Complete assigment",
     completed: true
   },
   {
     id: count++,
-    title: "Todo 3",
+    title: "Revice our daily work",
+    completed: false
+  },
+  {
+    id: count++,
+    title: "Need to go to the shoping ",
     completed: false
   }
   ])
